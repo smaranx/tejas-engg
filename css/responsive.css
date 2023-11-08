@@ -1,0 +1,293 @@
+
+@media (max-width: 1280px) {
+   
+
+}
+
+
+
+@media (max-width: 1199px) {
+
+    .banner-section {
+        height: 520px;
+        background: url(../images/hero_banner.png)#E4E3E8 no-repeat;
+        background-size: calc(100% - 50%);
+        background-position: right;
+    }
+    .banner-section-details h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .banner-section-details p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 60px;
+    }
+    .banner-section-details .banner-btn {
+        padding: 12px 35px;
+        font-size: 18px;
+    }
+    .rating-elements.element-one {
+        position: absolute;
+        right: 200px;
+        top: -60px;
+    }
+    .rating-elements.element-two {
+        position: absolute;
+        top: 70%;
+        left: -100px;
+    }
+    .rating-elements-inner p {
+        font-size: 18px;
+    }
+    .overview-heading-title {
+        font-size: 40px;
+    }
+    .overview-main-list .overvier-list-item h3 {
+        font-size: 24px;
+    }
+    .overview-list-item-inner span {
+        font-size: 14px;
+    }
+
+
+    .about-wraper-item-inner {
+        right: 180px;
+    }
+
+    .about-wraper-item-inner h2 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .about-wraper-item-inner p {
+        font-size: 16px;
+    }
+
+    .clients_logo li {
+        padding: 20px 30px;
+    }
+
+    .projects-section{
+        padding-top: 30px;
+    }
+
+   .about-wraper{
+    max-width: 900px;
+    margin: auto;
+   }
+
+   .form-details-inner h2 {
+    font-size: 33px;
+    line-height: 50px;
+}
+   
+}
+
+@media (max-width: 991px) {
+    .navbar .hamburger-menu {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+    .navbar .site-menu {
+        width: 100%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .site-menu.active{
+        display: none;
+    }
+   
+    .navbar .site-menu ul {
+        display: block;
+        margin: 10px 0px;
+        padding: 0;
+    }
+    .navbar .site-menu ul li {
+        display: block;
+        margin: 0;
+        padding: 10px 20px;
+        position: relative;
+        padding-left: 0px;
+    }
+    .navbar .site-menu ul li a {
+        display: block;
+    }
+    .hamburger-menu.open span {
+        width: 20px !important;
+    }
+    .hamburger-menu.open span:nth-child(1) {
+        top: 9px;
+        right: 0;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        width: 28px !important;
+    }
+    .hamburger-menu.open span:nth-child(2) {
+        opacity: 0;
+        right: 20px;
+    }
+    .hamburger-menu.open span:nth-child(3) {
+        top: 9px;
+        right: 0;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        width: 28px !important;
+    }
+
+
+    .banner-section {
+        height: 540px;
+        background-size: calc(100% - 30%);
+    }
+    
+    .why-choose-us .col-choose-us{
+        margin-bottom: 30px;
+    }
+
+    .quotes-left-text h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .quotes_btn {
+        padding: 10px 30px;
+    }
+
+    .form-img img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .overview-main-list {
+        padding: 0px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .banner-section {
+        height: 380px;
+        background-size: calc(100% - 0%);
+        background-position: center;
+    }
+    .banner-section-details h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .banner-section-images-elements {
+        display: none;
+    }
+
+    .navbar .hamburger-menu {
+        right: 20px;
+    }
+
+    .form-details-inner h2 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 16px;
+    }
+
+    .quotes-details-main {
+        flex-wrap: wrap;
+    }
+    .quotes_btn {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+    .quotes-left-text h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .get-a-quotes {
+        background-position: right;
+    }
+   
+    .about-wraper {
+        max-width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .overview-main-section{
+        padding-bottom: 0px;
+    }
+
+    .overview-main-list {
+        padding: 0px;
+    }
+    .overview-main-list .overvier-list-item {
+        width: calc(100% - 10px);
+    }
+
+    .about-wraper-item-inner {
+        right: 0;
+        margin-right: 0px;
+    }
+
+    .clients_logo {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .clients_logo li {
+        width: calc(50% - 10px);
+        margin: 10px 0px;
+    }
+
+    .projects-section {
+        padding-top: 0;
+    }
+
+    #experienceTabContent .swiper-button-next, #experienceTabContent .swiper-button-prev {
+        padding:10px 16px;
+    }
+    #experienceTabContent .swiper-pagination-bullet {
+        margin: 2px;
+        width: 8px;
+        height: 8px;
+    }
+    #experienceTabContent .swiper-pagination {
+        margin-top: 10px;
+    }
+
+    #experienceTabContent .swiper-button-next img {
+        width: 40% !important;
+    }
+
+    #experienceTabContent .swiper-button-prev img {
+        width: 40% !important;
+    }
+    .build-section .section-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .testimonial {
+        padding: 0px 0px 50px;
+    }
+    .footer-section{
+        padding: 40px 0px;
+    }
+    .footer-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .why-choose-us .col-choose-us {
+        margin-bottom: 20px;
+    }
+
+    .why-choose-us .col-choose-us:last-child{
+        margin-bottom: 0px;
+    }
+}

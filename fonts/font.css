@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+@font-face {
+  font-family: 'Oduda-Bold';
+  src: url('Oduda-Bold.eot');
+  src: url('Oduda-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Oduda-Bold.svg#Oduda-Bold') format('svg'),
+       url('Oduda-Bold.ttf') format('truetype'),
+       url('Oduda-Bold.woff') format('woff'),
+       url('Oduda-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
