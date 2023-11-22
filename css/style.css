@@ -418,12 +418,11 @@ span{
 }
 
 .clients_logo{
+ 
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  padding: 0px;
-  margin: 0px;
-  margin-top: 20px;
+  
+  
 }
 
 .clients_logo li {
