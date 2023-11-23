@@ -236,7 +236,7 @@ span{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: url('../images/hero_banner.png')#E4E3E8 no-repeat;
+  background: url('../images/hero_banner.webp')#E4E3E8 no-repeat;
   background-position: right;
 }
 
@@ -671,7 +671,7 @@ span{
 
 
 .get-a-quotes{
-  background-image: url('../images/quotes_bg.png');
+  background-image: url('../images/quotes_bg.webp');
   background-size: cover;
   padding: 50px 0px;
 }
